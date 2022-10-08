@@ -21,11 +21,24 @@ router.get("/", async (req, res) => {
 
 //'get single' post
 router.get("/post/:id", async (req, res) => {
-  include: [
-    User,
-    {
-      model: Comment,
-      include: [User],
-    },
-  ];
+  try {
+    const postData = await Post.findByPk(req.params.id, {
+      include: [
+        User,
+        {
+          model: Comment,
+          include: [User],
+        },
+      ],
+    });
+    if (postData) {
+      const post = postData.get({ post });
+
+      res.render("single-post", { post });
+    } else {
+      res.status(404).end();
+    }
+  } catch (err) {
+    res.status(500).json(err);
+  }
 });
