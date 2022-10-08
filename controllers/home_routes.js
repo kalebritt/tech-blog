@@ -42,3 +42,14 @@ router.get("/post/:id", async (req, res) => {
     res.status(500).json(err);
   }
 });
+
+//'get login'
+router.get("/login", (req, res) => {
+  if (req.session.loggedIn) {
+    res.redirect("/");
+    return;
+  }
+  res.render("signup");
+});
+
+module.exports = router;
