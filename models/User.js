@@ -43,5 +43,12 @@ User.init(
         return updateUserData;
       },
     },
+    sequelize,
+    timestamps: false,
+    freezeTableName: true,
+    underscored: true,
+    modelName: "User",
   }
 );
+
+module.exports = User;
