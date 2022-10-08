@@ -18,3 +18,14 @@ router.get("/", async (req, res) => {
     res.status(500).json(err);
   }
 });
+
+//'get single' post
+router.get("/post/:id", async (req, res) => {
+  include: [
+    User,
+    {
+      model: Comment,
+      include: [User],
+    },
+  ];
+});
