@@ -1,4 +1,4 @@
-# tech-blog
+## Tech-Blog:rocket:
 
 
 # Index:card_index:
@@ -31,10 +31,10 @@ Great ideas will go here.  Likely a global launch plan as well as marketing futu
 
 # Website Preview:movie_camera:
 -Screenshots and more!:arrow_down:
-![Screenshot of Login Page](/public/assets/Screen%20Shot%20Login.png)
-![Screenshot of Profile Page](/public/assets/Screen%20Shot%20Profile.png)<br>
+![Screenshot of Login Page]()
+![Screenshot of Profile Page]()<br>
 -Check out the GIF:arrow_down:
-![GIF](/public/assets/navigationgif.gif)
+![GIF]()
 
 # Technologies:computer:
 [-JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)<br>
@@ -45,9 +45,6 @@ Great ideas will go here.  Likely a global launch plan as well as marketing futu
 [-JQuery](https://api.jquery.com/)<br>
 [-HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)<br>
 [-CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)<br>
-...and the great obscurity<br>
-[-Day.js](https://day.js.org/en/)
-
 
 # Collaborators:muscle:
 
