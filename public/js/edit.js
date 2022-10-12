@@ -18,3 +18,12 @@ const editFormHandler = async function (event) {
     },
   });
 };
+
+//delete handler
+const deleteClickHandler = async function () {
+  await fetch(`/api/post/${postId}`, {
+    method: "DELETE",
+  });
+
+  document.location.replace("/dashboard");
+};
