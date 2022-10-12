@@ -19,3 +19,19 @@ router.post("/", async (req, res) => {
     res.status(500).json(err);
   }
 });
+
+//login route
+router.post('/login', async (req,res) => {
+    try{
+        const user = await User.findOne({
+            where: {
+                username: req.body.username,
+            };
+        });
+        if (!user) {
+            res.status(400).json({ message: 'No user found!' });
+            return;
+        }
+
+    }
+})
