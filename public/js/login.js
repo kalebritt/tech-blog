@@ -23,3 +23,8 @@ const loginFormHandler = async function (event) {
     alert("Failed to login");
   }
 };
+
+//query selector and addEventListener
+document
+  .querySelector("#login-form")
+  .addEventListener("submit", loginFormHandler);
