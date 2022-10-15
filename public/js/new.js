@@ -9,4 +9,14 @@ const newForHandler = async function (event) {
   ).ariaValueMax;
 
   //await fetch
+
+  await fetch(`/api/post`, {
+    method: "POST",
+    body: JSON.stringify({
+      title,
+      body,
+    }),
+    headers: { "Content-Type": "application/json" },
+  });
+  document.location.replace("/dashboard");
 };
