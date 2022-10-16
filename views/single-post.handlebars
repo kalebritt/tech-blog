@@ -11,36 +11,44 @@
     </div>
     <div class="card-body">{{post.body}}</div>
   </article>
-</div>
-{{! 'if' post }}
-{{#if post.Comments}}
-  <section class="card">
+
+  {{! 'if' post }}
+  {{#if post.Comments}}
+    <section class="card">
+      <div class="card-header">
+        <h3>Comments</h3>
+      </div>
+      <div class="card-body">
+        {{#each post.Comments}}
+          <div>
+            <p>
+              {{body}}
+            </p>
+            <p>
+              &mdash;
+              {{User.username}},
+              {{format_date createdAt}}
+            </p>
+          </div>
+        {{/each}}
+      </div>
+    </section>
+  {{/if}}
+  {{! new comment code block }}
+  <form id="new-comment-form" class="card">
     <div class="card-header">
-      <h3>Comments</h3>
+      <h3>Add New Comment</h3>
     </div>
+
     <div class="card-body">
-      {{#each post.Comments}}
-        <div>
-          <p>
-            {{body}}
-          </p>
-          <p>
-            &mdash;
-            {{User.username}},
-            {{format_date createdAt}}
-          </p>
-        </div>
-      {{/each}}
+      <input type="hidden" name="post-id" value="{{post.id}}" />
+
+      <label class="form-label" for="comment-body">Comment</label>
+
+      <textarea name="comment-body" class="form-input"></textarea>
+
+      <button type="submit" class="btn">Submit</button>
     </div>
-  </section>
-{{/if}}
-{{! new comment code block }}
-<form id="new-comment-form" class="card">
-  <div class="card-header">
-    <h3>Add New Comment</h3>
-  </div>
-  <div class="card-body">
-    <input type="hidden" name="post-id" value="{{post.id}}" />
-    <label class="form-label" for="comment-body">Comment</label>
-  </div>
-</form>
+  </form>
+</div>
+<script src="/public/js/comment.js"></script>
