@@ -38,6 +38,6 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(require("./controllers/"));
 
 app.listen(PORT, () => {
-  console.log("Copy loud and clear on ${PORT}!");
+  console.log(`Copy loud and clear on ${PORT}!`);
   sequelize.sync({ force: false });
 });
