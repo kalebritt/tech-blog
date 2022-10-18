@@ -17,6 +17,7 @@ const editFormHandler = async function (event) {
       "Content-Type": "application/json",
     },
   });
+  document.location.replace("/dashboard");
 };
 
 //delete handler
