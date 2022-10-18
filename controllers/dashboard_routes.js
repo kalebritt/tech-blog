@@ -20,6 +20,14 @@ router.get("/", withAuth, async (req, res) => {
   }
 });
 
+//get 'new'
+router.get("/new", withAuth, (req, res) => {
+  res.render("new-post", {
+    layout: "dashboard",
+  });
+});
+
+//get 'edit'
 router.get("/edit/:id", withAuth, async (req, res) => {
   try {
     const postData = await Post.findByPk(req.params.id);
