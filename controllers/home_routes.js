@@ -31,8 +31,10 @@ router.get("/post/:id", async (req, res) => {
         },
       ],
     });
+
+    //if statement
     if (postData) {
-      const post = postData.get({ post });
+      const post = postData.get({ plain: true });
 
       res.render("single-post", { post });
     } else {
@@ -48,6 +50,14 @@ router.get("/login", (req, res) => {
   if (req.session.loggedIn) {
     res.redirect("/");
     return;
+  }
+  res.render("login");
+});
+
+//signup route
+router.get("/signup", (req, res) => {
+  if (req.session.loggedIn) {
+    res.redirect("/");
   }
   res.render("signup");
 });
