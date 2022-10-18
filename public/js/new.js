@@ -3,10 +3,8 @@ const newForHandler = async function (event) {
   event.preventDefault();
 
   //query selectors
-  const title = document.querySelector('input[name="post-title"]').ariaValueMax;
-  const body = document.querySelector(
-    'textarea[name="post-body"]'
-  ).ariaValueMax;
+  const title = document.querySelector('input[name="post-title"]').value;
+  const body = document.querySelector('textarea[name="post-body"]').value;
 
   //await fetch
 
