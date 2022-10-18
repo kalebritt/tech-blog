@@ -9,7 +9,7 @@ const sequelize = process.env.JAWSDB_URL
       process.env.DB_USER,
       process.env.DB_PASSWORD,
       {
-        hose: "localhost",
+        host: "localhost",
         dialect: "mysql",
         port: 3306,
       }
