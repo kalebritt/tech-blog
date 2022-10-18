@@ -10,8 +10,8 @@ const loginFormHandler = async function (event) {
   const response = await fetch("/api/user/login", {
     method: "POST",
     body: JSON.stringify({
-      username: userNameEl.ariaValueMax,
-      password: passwordEl.ariaValueMax,
+      username: userNameEl.value,
+      password: passwordEl.value,
     }),
     headers: { "Content-Type": "application/json" },
   });
