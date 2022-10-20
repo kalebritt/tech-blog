@@ -413,7 +413,7 @@ input {
 }
 
 /* xl col */
-* col-xl */ @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .col-xl-1 {
     flex: 0 0 calc(100% * 1 / 12 - 2%);
   }
