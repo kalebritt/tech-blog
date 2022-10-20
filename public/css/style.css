@@ -214,6 +214,20 @@ input {
     min-width: 100vw;
   }
   
-
+  /* flexing */
+  .flex-row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .justify-space-between {
+    justify-content: space-between;
+  }
   
   
