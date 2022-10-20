@@ -247,15 +247,33 @@ input {
 }
 
 .align-stretch {
-    align-items: stretch;
-  }
-  
-  .align-end {
-    align-items: flex-end;
-  }
-  
-  .align-center {
-    align-items: center;
-  }
-  
-  
+  align-items: stretch;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.col-auto {
+  flex-grow: 1;
+}
+
+.col-1 {
+  flex: 0 0 calc(100% * 1 / 12 - 2%);
+}
+
+.col-2 {
+  flex: 0 0 calc(100% * 2 / 12 - 2%);
+}
+
+.col-3 {
+  flex: 0 0 calc(100% * 3 / 12 - 2%);
+}
+
+.col-4 {
+  flex: 0 0 calc(100% * 4 / 12 - 2%);
+}
