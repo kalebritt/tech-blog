@@ -38,7 +38,7 @@ Want to write about fun tech stuff?  This is your place to do just that!  Write 
 [-CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)<br>
 
 # Collaborators:muscle:
--[Kaleb Rittenhouse](https://github.com/kalebritt)
+-[Kaleb Rittenhouse](https://github.com/kalebritt)<br>
 and a special thank you to George, Kirtly, and Dan!!!!!
 
 # Resources:mag:
