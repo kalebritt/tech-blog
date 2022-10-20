@@ -96,3 +96,14 @@ input {
 .btn-inline {
   display: inline;
 }
+
+.li-inline {
+    display: inline;
+  }
+  
+  .navbar {
+    width: 100%;
+    position: fixed;
+    background-color: var(--dark);
+  }
+  
