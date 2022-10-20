@@ -98,94 +98,94 @@ input {
 }
 
 .li-inline {
-    display: inline;
-  }
-  
-  .navbar {
-    width: 100%;
-    position: fixed;
-    background-color: var(--dark);
-  }
-  
-  .nav-item {
-    margin: 0 40px;
-  }
-  
-  .nav-item a {
-    color: var(--primary);
-  }
-  
-  .hero {
-    padding: 3% 4%;
-    background-color: var(--dark);
-    color: var(--primary);
-  }
-  
-  .hero p {
-    max-width: 75%;
-  }
-  
-  .app-title {
-    font-size: 3rem;
-    background-color: var(--primary);
-    color: var(--dark);
-    padding: 0 10px;
-    display: inline-block;
-    border-radius: var(--border-radius);
-    box-shadow: 6px 5px var(--light-dark);
-  }
-  
-  .app-title a {
-    color: var(--dark);
-  }
-  
-  .list-group {
-    padding: 1%;
-  }
-  
-  .list-item {
-    margin-bottom: 10px;
-    padding: 1.5%;
-    border-radius: var(--border-radius);
-    background-color: var(--light-dark);
-    color: var(--primary);
-    text-decoration: none;
-  }
-  
-  .list-item:hover {
-    background-color: var(--dark);
-  }
-  
-  .footer a {
-    display: inline-block;
-    padding: 1em;
-    margin-bottom: .5em;
-    background-color: var(--dark);
-    color: var(--primary);
-    border-radius: var(--border-radius);
-    text-decoration: none;
-  }
+  display: inline;
+}
 
-  /* cards, friendo */
-  .card {
-    margin: 0 0 20px 0;
-    border: 3px solid var(--dark);
-    border-radius: var(--border-radius);
-  }
-  
-  .card-header {
-    color: var(--primary);
-    background-color: var(--dark);
-    padding: 1%;
-    border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
-  }
-  
-  .card-body {
-    padding: 1%;
-  }
+.navbar {
+  width: 100%;
+  position: fixed;
+  background-color: var(--dark);
+}
+
+.nav-item {
+  margin: 0 40px;
+}
+
+.nav-item a {
+  color: var(--primary);
+}
+
+.hero {
+  padding: 3% 4%;
+  background-color: var(--dark);
+  color: var(--primary);
+}
+
+.hero p {
+  max-width: 75%;
+}
+
+.app-title {
+  font-size: 3rem;
+  background-color: var(--primary);
+  color: var(--dark);
+  padding: 0 10px;
+  display: inline-block;
+  border-radius: var(--border-radius);
+  box-shadow: 6px 5px var(--light-dark);
+}
+
+.app-title a {
+  color: var(--dark);
+}
+
+.list-group {
+  padding: 1%;
+}
+
+.list-item {
+  margin-bottom: 10px;
+  padding: 1.5%;
+  border-radius: var(--border-radius);
+  background-color: var(--light-dark);
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.list-item:hover {
+  background-color: var(--dark);
+}
+
+.footer a {
+  display: inline-block;
+  padding: 1em;
+  margin-bottom: 0.5em;
+  background-color: var(--dark);
+  color: var(--primary);
+  border-radius: var(--border-radius);
+  text-decoration: none;
+}
+
+/* cards, friendo */
+.card {
+  margin: 0 0 20px 0;
+  border: 3px solid var(--dark);
+  border-radius: var(--border-radius);
+}
+
+.card-header {
+  color: var(--primary);
+  background-color: var(--dark);
+  padding: 1%;
+  border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
+}
+
+.card-body {
+  padding: 1%;
+}
 
 /* formo, friendo */
-  .form-label,
+.form-label,
 .form-input,
 .form-textarea {
   display: block;
@@ -207,27 +207,41 @@ input {
 
 /* utils */
 .min-100-vh {
-    min-height: 100vh;
-  }
-  
-  .min-100-vw {
-    min-width: 100vw;
-  }
-  
-  /* flexing */
-  .flex-row {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .flex-column {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  
-  .justify-space-between {
-    justify-content: space-between;
-  }
-  
-  
+  min-height: 100vh;
+}
+
+.min-100-vw {
+  min-width: 100vw;
+}
+
+/* flexing */
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.justify-flex-start {
+  justify-content: flex-start;
+}
+
+.justify-flex-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
