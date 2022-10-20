@@ -25,10 +25,8 @@ tech blog is a tech blog is a tech blog is a tech blog is a tech blog is a tech 
 
 # Website Preview:movie_camera:
 -Screenshots and more!:arrow_down:<br>
-![Screenshot of Login Page]()<br>
-![Screenshot of Profile Page]()<br>
--Check out the GIF:arrow_down:<br>
-![GIF]()
+![Screenshot of Login Page](/assets/screenshots/tech_blog_screenshot.png)<br>
+
 
 # Technologies:computer:
 [-JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)<br>
@@ -42,6 +40,7 @@ tech blog is a tech blog is a tech blog is a tech blog is a tech blog is a tech 
 
 # Collaborators:muscle:
 -[Kaleb Rittenhouse](https://github.com/kalebritt)
+and a special thank you to George, Kirtly, and Dan!!!!!
 
 # Resources:mag:
 [Google](https://www.google.com/) is always a great resource.
