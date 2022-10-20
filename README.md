@@ -21,7 +21,7 @@ tech blog is a tech blog is a tech blog is a tech blog is a tech blog is a tech 
 
 # User Story:feelsgood:
 
-# Future Enhancements:money_with_wings:
+Want to write about fun tech stuff?  This is your place to do just that!  Write some words, read the words of others, all under your own unique profile.  
 
 # Website Preview:movie_camera:
 -Screenshots and more!:arrow_down:<br>
@@ -34,7 +34,6 @@ tech blog is a tech blog is a tech blog is a tech blog is a tech blog is a tech 
 [-Node.js](https://nodejs.org/en/)<br>
 [-MySQL](https://www.mysql.com/)<br>
 [-Bootstrap](https://getbootstrap.com/)<br>
-[-JQuery](https://api.jquery.com/)<br>
 [-HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)<br>
 [-CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)<br>
 
