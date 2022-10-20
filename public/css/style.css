@@ -143,3 +143,26 @@ input {
     padding: 1%;
   }
   
+  .list-item {
+    margin-bottom: 10px;
+    padding: 1.5%;
+    border-radius: var(--border-radius);
+    background-color: var(--light-dark);
+    color: var(--primary);
+    text-decoration: none;
+  }
+  
+  .list-item:hover {
+    background-color: var(--dark);
+  }
+  
+  .footer a {
+    display: inline-block;
+    padding: 1em;
+    margin-bottom: .5em;
+    background-color: var(--dark);
+    color: var(--primary);
+    border-radius: var(--border-radius);
+    text-decoration: none;
+  }
+  
