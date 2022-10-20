@@ -44,3 +44,16 @@ h2 a {
 header {
   margin-top: 50px;
 }
+
+main {
+  margin: 20px auto;
+  width: 94%;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 1.2rem;
+}
