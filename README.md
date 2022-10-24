@@ -39,7 +39,7 @@ Want to write about fun tech stuff?  This is your place to do just that!  Write 
 
 # Collaborators:muscle:
 -[Kaleb Rittenhouse](https://github.com/kalebritt)<br>
-and a special thank you to George, Kirtly, and Dan!!!!!
+and a special thank you to George, Kirtley, and Dan!!!!!
 
 # Resources:mag:
 [Google](https://www.google.com/) is always a great resource.
