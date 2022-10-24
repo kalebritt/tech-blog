@@ -1,4 +1,4 @@
-## [Tech-Blog:rocket:](heroku-link-here)
+## [Tech-Blog:rocket:](https://stormy-anchorage-37388.herokuapp.com/)
 
 
 # Index:card_index:
