@@ -1,5 +1,5 @@
 //newForHandler
-const newForHandler = async function (event) {
+const newFormHandler = async function (event) {
   event.preventDefault();
 
   //query selectors
@@ -21,4 +21,4 @@ const newForHandler = async function (event) {
 
 document
   .querySelector("#new-post-form")
-  .addEventListener("submit", newForHandler);
+  .addEventListener("submit", newFormHandler);
