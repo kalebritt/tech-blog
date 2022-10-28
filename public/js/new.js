@@ -1,4 +1,4 @@
-//newForHandler
+//newFormHandler
 const newFormHandler = async function (event) {
   event.preventDefault();
 
